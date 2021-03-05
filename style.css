@@ -8,8 +8,8 @@ body {
     background: #0f0f0f;
 }
 .pic {
-    width: 600px;
-    height: 400px;
+    width: 1200px;
+    height: 800px;
     background: url(bg.jpg) no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -19,7 +19,7 @@ body {
 .pic::before {
     content: '';
     position: absolute;
-    width: 600px;
+    width: 1200px;
     height: 40px;
     background: url(bg.jpg) no-repeat;
     background-size: cover;
@@ -36,23 +36,23 @@ body {
         background-position: 12px 0;
     }
     20% {
-        top: 80px;
-        background-position: -10px -80px;
+        top: 160px;
+        background-position: -10px -160px;
     }
     40% {
-        top: 160px;
-        background-position: 6px -160px;
+        top: 320px;
+        background-position: 6px -320px;
     }
     60% {
-        top: 240px;
-        background-position: -6px -240px;
+        top: 480px;
+        background-position: -6px -480px;
     }
     80% {
-        top: 320px;
-        background-position: 10px -320px;
+        top: 640px;
+        background-position: 10px -640px;
     }
     100% {
-        top: 400px;
-        background-position: -12px -400px;
+        top: 800px;
+        background-position: -12px -800px;
     }
 }
